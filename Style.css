@@ -1,0 +1,69 @@
+html,body{
+    height:100%;
+    margin:0;
+    background:linear-gradient(180deg,#e6eefc 0%,red);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.calculator{
+    width:400px;
+    max-whidth:92vh;
+    border-radius:12px;
+    background:rgba(240, 198, 45, 1);
+    box-shadow:rgba(240, 162, 45, 1);
+    padding:18px;
+    display:grid;
+    grid-template-rows:auto 1fr;
+    gap:12px;
+}
+
+.display{
+    background:rgba(192, 237, 240, 1);
+    border-radius:8px;
+    padding:12px;
+    box-sizing:border-box;
+    display:flex;
+    flex-direction:column;
+    gap:6px;
+    align-items:flex-end;
+    min-height:72px;
+}
+
+.current{
+font-size:0.9rem;
+font-weight:600;
+color:rgba(8, 8, 28, 1);
+word-break:brak-all;
+}
+
+.previous{
+    color:rgba(24, 17, 240, 1);
+    font-size:0.95rem;
+    opacity:0.9;
+
+}
+
+.keypad{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:10px;
+    align-items:stretch;
+}
+
+button.key{
+    border:none;
+    border-radius:10px;
+    padding:18px 12px;
+    font-size:1rem;
+    transitin:transform .08s ease,background .12s;
+    box-shadow:0 1px 0 rgba(2,1,4,6)
+
+}
+
+button.del {
+    background:red;
+    color:white;
+    font-weight:600;
+}
