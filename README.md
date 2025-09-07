@@ -1,12 +1,31 @@
 # 🔢 Calculator  
 
 A **beginner-friendly calculator project** built using **HTML, CSS, and JavaScript**.  
-It allows users to perform basic arithmetic operations with a clean and simple interface.  
+It provides a simple and clean interface to perform basic arithmetic operations.  
+
+---
 
 ## ✨ Features  
-- Perform addition, subtraction, multiplication, and division  
-- Clear (C) and backspace (⌫) functionality  
-- Keyboard support for numbers and operators  
-- Responsive design for desktop and mobile  
+- ➕ Addition, ➖ Subtraction, ✖ Multiplication, ➗ Division  
+- 🧹 Clear (C) and ⌫ Backspace functionality  
+- ⌨️ Keyboard support for numbers and operators  
+- 📱 Responsive design for both desktop and mobile  
+
+---
 
 ## 📂 Project Structure  
+- `Calculator.html` → Main HTML file  
+- `Style.css` → Styling and layout  
+- `script.js` (if added) → Calculator logic  
+
+---
+
+## 🚀 Live Demo  
+🔗 [Try the Calculator here](https://saikeerthiambati.github.io/Calculator/)  
+
+---
+
+## 🛠️ How to Run Locally  
+1. Clone the repo  
+   ```bash
+   git clone https://github.com/saikeerthiambati/Calculator.git
